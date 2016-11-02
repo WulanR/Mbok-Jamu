@@ -1,0 +1,23 @@
+package id.sch.smktelkom_mlg.learn.mbokjamu;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
+
+/**
+ * Created by Milo Nestlea on 11/1/2016.
+ */
+
+public class SplashScreen extends Activity {
+    private static int splashInterval = 2000;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.Layout.SplashScreen);
+    }
+}
