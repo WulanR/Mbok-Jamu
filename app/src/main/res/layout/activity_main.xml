@@ -16,7 +16,7 @@
         android:layout_height="wrap_content" />
     
     <ImageView
-        android:src="@drawable/c"
+        android:src="@drawable/bj"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:scaleType="fitXY"/>
